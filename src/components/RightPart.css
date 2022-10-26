@@ -1,0 +1,164 @@
+/****************************************************************************/
+.rightpart {
+    text-align: center;
+    margin: 4vmax 0vmax;
+    background-color: white;
+    width: 18vmax;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.rightpart>.images>img:first-child {
+    width: 18vmax;
+    height: 5vmax;
+    border-radius: 10px 10px 0 0;
+}
+
+.rightpart>.images>img:last-child {
+    border-radius: 100%;
+    z-index: 2;
+    margin-top: -3vmax;
+    width: 5vmax;
+    border: 0.25vmax solid white;
+}
+
+.rightpart-1 {
+    margin-top: -1.7vmax;
+    font: 200 1.1vmax "TIro Tamil";
+}
+
+.rightpart-1>h6 {
+    margin-top: -1.5vmax;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.rightpart-2 {
+    margin-top: -1.5vmax;
+    display: flex;
+    height: 30%;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    height: fit-content;
+}
+
+.rightpart-2>div>p {
+    margin-bottom: -0.2vmax;
+}
+
+.rightpart-2>div>span {
+    color: rgba(0, 0, 0, 0.5);
+    font: 200 0.9vmax "Lobster";
+}
+
+/**************************************************************************************/
+.rightpart-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: 200 0.9vmax "Tiro Tamil";
+}
+
+/******************************************************************************************/
+.CircularProgressbar {
+    height: 7vmax;
+}
+
+/***********************************/
+.rightpart-5 {
+    height: fit-content;
+    margin-top: -1.2vmax;
+}
+
+.rightpart-5>p {
+    margin-top: -1.2vmax;
+    font: 200 0.8vmax "Tiro Tamil";
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.rightpart-5>h6 {
+    margin-top: -0.8vmax;
+    font: 300 0.9vmax "Poppins";
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.rightpart-5>h6>span {
+    background-color: rgb(146, 243, 98);
+    color: green;
+    opacity: 0.7;
+    border-radius: 1vmax;
+    padding: 0 0.3vmax;
+}
+
+.rightpart-6 {
+    text-align: start;
+    margin-bottom: -8vmax;
+}
+
+.rightpart-6>h3 {
+    font: 800 1.2vmax "Tiro Tamil";
+}
+
+.rightpart-6>p {
+    font: 400 1.1vmax "TIro Tamil";
+}
+
+
+/******************************************************/
+@media screen and (max-width: 600px) {
+    .rightpart {
+        width: 100%;
+    }
+
+    .rightpart>.images>img:first-child {
+        width: 100%;
+        height: 10vmax;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .rightpart>.images>img:last-child {
+        border-radius: 100%;
+        z-index: 2;
+        margin-top: -8vmax;
+        width: 15vmax;
+        border: 0.25vmax solid white;
+    }
+
+
+    .rightpart-1 {
+        margin-top: -1.7vmax;
+        font: 200 3.1vmax "TIro Tamil";
+    }
+
+    .rightpart-1>h6 {
+        margin-top: -2.5vmax;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .rightpart-2>div>p {
+        margin-bottom: -0.2vmax;
+    }
+
+    .rightpart-2>div>span {
+        color: rgba(0, 0, 0, 0.5);
+        font: 200 1.9vmax "Lobster";
+    }
+
+    .rightpart-3 {
+        font-size: 2.65vmax;
+    }
+
+    .CircularProgressbar {
+        height: 17vmax;
+    }
+
+    .rightpart-5 > h3,
+    .rightpart-5 > p,
+    .rightpart-5 > h6{
+        font-size: 2.5vmax;
+    }
+
+    .rightpart-6 > h3,
+    .rightpart-6 > p {
+        font-size: 2.5vmax;
+    }
+}

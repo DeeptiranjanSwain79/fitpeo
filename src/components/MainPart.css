@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    height: 1vmax;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1vmax;
+}
+
+.header>div>svg {
+    width: 3vmax;
+}
+
+.header>div>img:last-child {
+    border-radius: 100%;
+}
+
+/***********************************************************************/
+.main-part {
+    display: block;
+}
+
+.main-page {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    top: 3vmax;
+}
+
+/**************************************************************/
+@media screen and (max-width: 600px) {
+    .main-page {
+        display: block;
+    }
+}

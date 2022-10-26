@@ -1,0 +1,13 @@
+.sidebar {
+    display: flex;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.sub-menu-item {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+h4{
+    margin-left: 2vmax;
+}
